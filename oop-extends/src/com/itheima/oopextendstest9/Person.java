@@ -1,0 +1,18 @@
+package com.itheima.oopextendstest9;
+
+public class Person {
+    String name;
+    int age;
+
+    // 构造方法
+
+    public Person() {
+        System.out.println("父类的空参构造执行了~");
+    }
+
+    public Person(String name, int age) {
+        System.out.println("父类的带参构造执行了~");
+        this.name = name;
+        this.age = age;
+    }
+}
